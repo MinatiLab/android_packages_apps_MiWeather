@@ -1,0 +1,9 @@
+android_app_import {
+    name: "MiWeather",
+    apk: "app/MiWeather/MiWeather.apk",
+    presigned: true,
+    privileged: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
